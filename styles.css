@@ -481,18 +481,19 @@ header ul li {
   
 
   .video-wrap {
-    position: relative;
+    width: 100%;
+    height: 600;
+    background: rgb(0, 0, 0);
   }
 
   video {
-    display: inline-block;
     margin: 0;
-    /* padding-right: 180px; */
+    width: 100%;
     height: 600px;
     z-index: 2;
   }
    
-  .vpic {
+  /* .vpic {
     width: 100vw;
     height: 600px;
   }
@@ -500,7 +501,7 @@ header ul li {
     z-index: 2;
     max-width: 100%;
     padding-top: 100px;
-  }
+  } */
 
   /* 画像配置 */
 
@@ -536,10 +537,11 @@ header ul li {
 
 
 
- .img1 {
+ /* .video {
    width: 100%;
-   background-color: black;
- }
+   background: coral;
+   text-align: center;
+ } */
 
 
 
